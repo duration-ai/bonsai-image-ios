@@ -1,0 +1,32 @@
+bonsai-swift
+Copyright 2026 Duration AI
+
+This product includes software licensed under the Apache License, Version 2.0
+(see LICENSE).
+
+------------------------------------------------------------------------------
+Attribution
+------------------------------------------------------------------------------
+
+This is an independent, from-scratch port of the Bonsai Image inference pipeline
+to Swift / mlx-swift for on-device (iOS) use. It is not affiliated with or
+endorsed by Prism ML, Black Forest Labs, Alibaba Cloud, Apple, or Hugging Face.
+
+Created using Bonsai Image by Prism ML
+  https://github.com/PrismML-Eng/Bonsai-Image-Demo  (Apache-2.0)
+
+Bonsai Image is built from FLUX.2 [klein] 4B, Copyright 2026 Black Forest Labs
+  https://huggingface.co/black-forest-labs/FLUX.2-klein-4B  (Apache-2.0)
+
+The text encoder is built from Qwen3-4B, Copyright 2024 Alibaba Cloud
+  https://huggingface.co/Qwen/Qwen3-4B  (Apache-2.0)
+
+The reference Python implementation this port was validated against is
+mflux / mflux-prism, Copyright Filip Strand / Prism ML  (MIT)
+
+Dependencies:
+  mlx-swift, Copyright Apple Inc.            (MIT)
+  swift-transformers, Copyright Hugging Face (Apache-2.0)
+
+Model weights are NOT distributed with this repository. Download them from
+Prism ML under their own license (see README).

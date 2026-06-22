@@ -1,0 +1,15 @@
+.build/
+.xcbuild/
+.swiftpm/
+fixtures/
+*.safetensors
+.DS_Store
+
+# iOS build output
+.xcbuild-ios/
+
+# Screen recordings — keep out of git history unless explicitly decided
+*.mov
+
+# Internal engineering log — blog raw material, kept out of the public release
+docs/ON_DEVICE_JOURNEY.md

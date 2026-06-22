@@ -1,0 +1,6 @@
+# XcodeGen output — regenerate with `xcodegen generate`
+BonsaiDemo.xcodeproj/
+Generated/
+
+# Bundled weights — staged here before building (multi-GB; never committed)
+bonsai-model/
